@@ -26,7 +26,7 @@ const Dashboard = () => {
       <Button
         containerStyle={styles.blueHollowContainer}
         textStyle={styles.blueHollowTitle}
-        title="Press me"
+        title="Send Notification"
         onPress={() => sendPushNotification(expoPushToken?.data!)}
       />
     </Container>
